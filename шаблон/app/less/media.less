@@ -1,0 +1,279 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1366px) {
+    .logo{
+        top:15%;
+        margin-left: -180px;
+        img{
+            width: 360px;
+        }
+    }
+}
+@media only screen and (max-width : 1200px) {
+    .s_routes_content{
+        max-width: 600px;
+    }
+    .s_routes .owl-prev{
+        left: -75px;
+    }
+    .s_routes .owl-next{
+        right: -75px;
+    }
+    .s_announce{
+        flex-direction: column;
+        align-items: center;
+    }
+    .s_inform_content{
+        flex-direction: column;
+    }
+    .s_inform{
+        padding: 45px 20px;
+    }
+    .s_inform .inform_link{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .s_inform_content_centr{
+        text-align: center;
+    }
+    .footer p{
+        margin:15px;
+    }
+    .main_block{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .sidebar{
+        width: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        margin-top: 50px;
+    }
+    .tours{
+        margin-right: 50px;
+    }
+    .news{
+        margin-top: 0;
+    }
+    .contacts_block{
+        flex-direction: column;
+    }
+    .feedback{
+        margin-top: 50px;
+    }
+    .news_content_item .inform_link {
+        float: none;
+        margin: 30px auto 0;
+    }
+    .reserves{
+        margin-top: 0;
+    }
+    .gallery_item .inform_link{
+        float: none;
+        margin: 30px auto 0;
+    }
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .logo{
+        left: 5px;
+        top:5px;
+        margin-left: 0;
+        img{
+            width: 140px;
+
+        }
+    }
+    .btn{
+        display: block;
+    }
+    .header_top{
+        nav{
+            position: absolute;
+            left: 0;
+            top:74px;
+            padding: 22px 0;
+            margin-top: 0;
+            background: #251d1b;
+            z-index: 9;
+            width: 100%;
+            display: none;
+            > ul{
+                width: 100%;
+                > li +li{
+                    margin-left: 0;
+                }
+                > li{
+                    display: block; 
+                    text-align: center;
+                    padding: 0;
+                    &:after{
+                        display: none;
+                    }
+                    &:before{
+                        display: none;
+                    }
+                    > a{
+                        display: block;
+                        padding: 7px 0;
+                        &:hover{
+                            background-color: #110D0A;
+                        }
+                        &:after{
+                            display: none;
+                        } 
+                    }
+                    > ul{
+                        position: static;
+                        margin: 0 auto;
+                        padding: 5px;
+                        display: block;
+                        > li {
+                            > a{
+                                padding: 6px 0;
+                                border-radius: 0;
+                                display: block;
+                                &:hover{
+                                    background-color: #110D0A;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header_top{
+        justify-content: flex-end;
+
+    }
+    .header_top nav > ul > li > ul{
+        width: 100%;
+    }
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .s_routes .owl-nav{
+        display: none;
+    }
+    .sidebar{
+        flex-direction: column;
+    }
+    .news{
+        margin-top: 30px;
+    }
+    .tours{
+        margin-right: 0;
+    }
+    .main_block{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contacts{
+        padding: 80px 10px 40px
+    }
+    .feedback {
+        width: auto;
+        div{
+            flex-direction: column;
+        }
+        input{
+            width: 100%;
+        }
+        input + input{
+            margin-top: 10px;
+        }
+    }
+    .reserves{
+        margin-top: 50px;
+    }
+    .pagination{
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 0;
+        div{
+            margin: 10px 0;
+        }
+    }
+}
+
+@media only screen and (max-width : 520px) {
+    .s_inform_content_centr h1{
+        font-size: 37px;
+    }
+    .s_inform_content_centr p{
+        font-size: 25px;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .s_announce_item{
+        flex-direction: column;
+    }
+    .s_announce_item_link_miniature{
+        margin-bottom: 15px;
+    }
+    .s_announce_item div{
+        display: block;
+        width: auto;
+    }
+    .s_announce{
+        margin: 0 15px;
+    }
+    .s_announce_item  .inform_link{
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width : 420px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    nav{
+        display: -webkit-flex !important;
+        display: -moz-flex !important;
+        display: -ms-flex !important;
+        display: -o-flex !important;
+        display: flex !important;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

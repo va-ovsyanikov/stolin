@@ -1,0 +1,35 @@
+
+/* font-family: "Roboto-Regular"; */
+@font-face {
+    font-family: "Roboto-Regular";
+    src:url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PTSansNarrowBold";
+    src: url("../fonts/PTSansNarrowBold/PTSansNarrowBold.eot");
+    src: url("../fonts/PTSansNarrowBold/PTSansNarrowBold.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/PTSansNarrowBold/PTSansNarrowBold.woff") format("woff"),
+        url("../fonts/PTSansNarrowBold/PTSansNarrowBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PTSansNarrowRegular";
+    src: url("../fonts/PTSansNarrowRegular/PTSansNarrowRegular.eot");
+    src: url("../fonts/PTSansNarrowRegular/PTSansNarrowRegular.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/PTSansNarrowRegular/PTSansNarrowRegular.woff") format("woff"),
+        url("../fonts/PTSansNarrowRegular/PTSansNarrowRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "ptsansnarrow";
+    src:url("../fonts/ptsansnarrow.woff") format("woff"),
+    font-style: normal;
+    font-weight: normal;
+}

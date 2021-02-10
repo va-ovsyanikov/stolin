@@ -1,0 +1,11 @@
+{
+  "vars": {
+    "@grid-gutter-width": "35.27px",
+    "@container-lg": "988.73px + @grid-gutter-width"
+  },
+  "css": [
+    "grid.less"
+  ],
+  "js": [],
+  "customizerUrl": "http://bootstrap-3.ru/customize.php?id=4ceb68e4141b427ff9d484de3efc28f1"
+}
